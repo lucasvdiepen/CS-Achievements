@@ -11,7 +11,7 @@ namespace Les3SwitchCases
                 Console.Write("Input: ");
                 string input = Console.ReadLine();
 
-                if(Int32.TryParse(input, out int result))
+                if(int.TryParse(input, out int result))
                 {
                     switch(result)
                     {

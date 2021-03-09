@@ -7,7 +7,7 @@ namespace Les2VariablesAndDatatypes
         static void Main(string[] args)
         {
             int intWaarde = 1;
-            float floatWaarde = Convert.ToSingle(intWaarde);
+            float floatWaarde = (float)intWaarde;
             bool boolWaarde = Convert.ToBoolean(floatWaarde);
 
             Console.WriteLine("Int waarde: " + intWaarde);

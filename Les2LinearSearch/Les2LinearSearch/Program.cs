@@ -20,7 +20,7 @@ namespace Les2LinearSearch
                 "Rose"
             };
 
-            string nameToFind = "Joe";
+            string nameToFind = "Ramses";
 
             int index = FindInArray(names, nameToFind);
 

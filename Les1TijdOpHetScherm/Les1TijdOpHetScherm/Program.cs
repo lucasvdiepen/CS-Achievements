@@ -16,8 +16,8 @@ namespace Les1TijdOpHetScherm
             {
                 DateTime date = DateTime.Now;
 
-                Console.Clear();
-                Console.WriteLine(date.ToString("HH::mm:ss"));
+                //Console.Clear();
+                Console.Write("\r" + date.ToString("HH::mm:ss"));
 
                 Thread.Sleep(1000);
                 colorCounter++;

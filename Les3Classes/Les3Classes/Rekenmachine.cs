@@ -11,7 +11,7 @@ namespace Les3Classes
             return waarde1 + waarde2;
         }
 
-        public int Delen(int waarde1, int waarde2)
+        public float Delen(float waarde1, float waarde2)
         {
             return waarde1 / waarde2;
         }

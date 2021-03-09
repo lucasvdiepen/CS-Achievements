@@ -9,7 +9,7 @@ namespace Les3Classes
             Rekenmachine rekenmachine = new Rekenmachine();
 
             Console.WriteLine(rekenmachine.Optellen(3, 3));
-            Console.WriteLine(rekenmachine.Delen(4, 2));
+            Console.WriteLine(rekenmachine.Delen(2, 4));
             Console.WriteLine(rekenmachine.Vermenigvuldigen(3, 3));
         }
     }
